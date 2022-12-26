@@ -56,7 +56,7 @@ export default class App extends Component{
 
   handleUpdate=(newDescription,key)=>{
     const listOfItems = this.state.listOfItems;
-
+    {/* eslint-disable-next-line max-len */}
     listOfItems.map(currItem => { 
       if(currItem.key===key){
         currItem.itemDescription = newDescription;
